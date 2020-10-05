@@ -81,3 +81,14 @@ hr {
      font-size: 50px;
      text-align: center;
  }
+ #trabajos {
+     background-color: #36138D;
+     color: aliceblue;
+     padding: auto;
+ }
+ .card-text {
+     color: black;
+ }
+
+ 
+ 
