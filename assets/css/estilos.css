@@ -24,7 +24,7 @@ header {
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: center;
   }
 .hero-text{
     text-align: center ;
@@ -45,3 +45,39 @@ hr {
 #about {
     padding-top: 50px;
 }
+
+.carousel{
+    background-color:white;
+    margin-top: 20px;
+    padding: 5% 0% ;
+    text-align: center;
+    
+  }
+
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+.container i {
+    font-size: 70px;
+    padding: 7px;
+    background-color: #36138D;
+    color: cornsilk;
+    border-radius: 20%;
+}
+.container h6{
+    font-weight: 700;
+    font-size: 30px;
+}
+.container p {
+    font-size: 22px;
+}    
+ h3 {
+     font-weight: 700;
+     font-size: 50px;
+     text-align: center;
+ }
