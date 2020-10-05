@@ -1,0 +1,47 @@
+
+body {
+font-family: 'Unna', serif;
+font-weight: 400;
+
+}
+.navbar-brand{
+    font-family: 'Great Vibes', cursive; 
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+#navbarNav ul {
+    margin-left: auto;
+    
+}
+nav {
+    background-color: #36138D;
+}
+
+header {
+    background-image: url('../img/bg_hero.png');
+    width: auto;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+.hero-text{
+    text-align: center ;
+    color: white;
+    padding-top: 200px;
+}
+
+hr {
+    height: 30px;
+    border-color: black;
+    width: 120px;
+}
+
+.container p {
+    font-size: 15px;
+}
+
+#about {
+    padding-top: 50px;
+}
