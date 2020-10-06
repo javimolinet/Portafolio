@@ -130,22 +130,59 @@ color: white;
 .blanco {
     border-color: blanchedalmond;
 }
-@media (max-width: 576px) {
+@media (max-width: 568px) {
     header {
     background-image: url(../img/foto-xs.jpeg);
+    height: 515px;
+    }
+    .hero-text{
+        position: absolute;
+        top: 60%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    #trabajos{
+        padding-bottom: 0%;
     }
     h2 {
         color: blueviolet;
+        font-size: 40px;
         }
         hr{
-            border-color: blueviolet;
-         }
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
         h1 {
+            font-size: 90px;
             color: blueviolet;
         }
+        .container h6{
+            font-weight: 700;
+            font-size: 20px;
+        }
        
+          
+        footer i {
+            font-size: 40px;
+         margin: 0 8px;
+        }
+      
    
     }
+@media(min-width: 1450px){
+         
+    .hero-text{
+    
+    position: absolute;
+    top: 48%;
+    left: 0;
+    right: 0;
+     margin: 0 auto;
+ }
+ 
+    }
+        
 
 
  
